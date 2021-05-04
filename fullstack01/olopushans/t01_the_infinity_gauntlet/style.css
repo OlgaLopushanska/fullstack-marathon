@@ -1,0 +1,18 @@
+.gh{
+    width: 100%;
+    height:400px;
+    background-image: url(.fir);
+    background-size: 270px;
+    background-repeat: repeat-x, repeat-y;
+}
+
+.hand1 {
+width:100px
+}
+.hand1:hover ~ .sec img:nth-child(2n) {
+    visibility: hidden;
+}
+.hand1:hover ~ .fir img:nth-child(2n+1) {
+    visibility: hidden;
+}
+

@@ -1,0 +1,247 @@
+﻿h1{
+    text-align:center;
+    color:darkslategrey;
+}
+.main {
+    background-color: #3d4752;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 380px;
+    align-items: center;
+    font-family: Arial;
+    padding-left: 15px;
+    margin-right: 20px;
+    margin-left:10px;
+    margin-top:10px;
+   margin-bottom:20px;
+   padding-bottom:5px;
+    padding-top:5px;
+}
+.main2 {
+    background-color: #46525f;
+    color: white;
+    border: 1px solid grey;
+    width: 100%;
+    height:90%;
+    font-size:0.8em;
+}
+.type1, .type4,.type6{
+    width: 38%;
+    padding-top: 15px;
+    padding-left: 30px;
+    float: left;
+    line-height: 25px;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 11%;
+    margin-right:30px;
+    justify-content:space-evenly;
+    background-color: #303a43;
+    border-radius: 10px;
+}
+.type2 {
+    width: 90%;
+    background-color: #333d48;
+    color: white;
+    font: bold;
+    font-size: 0.9em;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.id1 {
+    background-color: #333d48;
+    color: white;
+    font: bold;
+    font-size: 0.9em;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-family: FontAwesome;
+    content: "cvbhxc";
+    color: #27f1ce;
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+}
+.type3 {
+    width: 38%;
+    padding-top: 50px;
+    padding-left: 30px;
+    float: left;
+    line-height: 40px;
+    margin-right: -50px;
+}
+.type5 {
+    width: 38%;
+    margin-top:-95px;
+    padding-left: 30px;
+    float: left;
+    line-height: 25px;
+}
+.child{
+    margin:auto;
+}
+.dark{
+    padding-right:38%;
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+ }
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#303a43;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+     position: absolute;
+     content: "";     
+     height: 26px;
+     width: 26px;
+     left: 4px;
+     bottom: 4px;
+     background-color: #37bca4;
+     -webkit-transition: .4s;
+     transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+.type5 input[type=checkbox] {
+    display: none;
+    font-size: 1em;
+}
+
+.type5 label span {
+    height: 8px;
+    width: 8px;
+    border: 2px solid gray;
+    display: inline-block;
+    position: relative;
+    background-color: #303a43;
+    border-radius: 3px;
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
+
+.type5 [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    font-size: 13px;
+    color: green;
+}
+.type4{
+    margin-top: -10px;
+}
+.type4 input[type=checkbox] {
+    display: none;
+}
+.type4 label span {
+    height: 20px;
+    width: 20px;
+    border: 2px solid gray;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    padding: 3px;
+    margin-right:10px;
+}
+.type4 .c1  span {
+    background-color: #4076c2;
+}
+.type4 .c2 span {
+    background-color: #37bca4;
+}
+.type4 .c3 span {
+    background-color: #dd57d0;
+}
+.type4 .c4 span {
+    background-color: #dcd951;
+}
+.type4 .c5 span {
+    background-color: #dd7c58;
+}
+.type4 [type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top:1px;
+    left:5px;
+    font-size: 15px;
+    color: white;
+}
+.type6{
+    margin-top:-30px;
+}
+.type6 [type=range] {
+    -webkit-appearance: none;
+     width: 70%;
+}
+.type6 input[type=range]:focus {
+    outline: none; /* Убирает голубую границу у элемента */
+}
+
+.type6 input[type=range]::-ms-track {
+    width: 70%;
+    cursor: pointer;
+    background: transparent; /* Скрывает слайдер, чтобы можно было добавить собственные стили. */
+    border-color: transparent;
+    color: transparent;
+}
+.type6 input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+     height: 20px;
+     width: 20px;
+     border-radius: 30px;
+     background: #37bca4;
+     cursor: pointer;
+     margin-top: -10px; 
+ }
+
+.type6 input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #333d48;
+ }
+.type6 .s2{
+    font-size:20px;
+    margin-left:60%;
+}

@@ -1,0 +1,69 @@
+body{
+    background-color:#f3d250;
+}
+h1{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+.html1, .css1{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding:20px;
+}
+.proto {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding:20px;
+}
+.grid-item {
+    background-color: white;
+    padding: 20px;
+}
+.grid-item .u{
+    width:50px;
+    height:50px;
+    background-color:aqua;
+}
+.grid-item .o{
+    line-height: 3em;
+}
+.grid-item .p {
+    font-size:24px;
+}
+.grid-item .t {
+     border-bottom:5px solid green;
+}
+
+@media only screen and (min-width: 320px) {
+    /* For mobile phones: */
+    [class*="css1"], [class*="html1"] {
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="css1"], [class*="html1"] {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* For mobile phones: */
+    [class*="css1"], [class*="html1"] {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="proto"]{
+        grid-template-columns: 100%;
+    }
+}
+
+

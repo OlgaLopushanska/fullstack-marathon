@@ -1,0 +1,23 @@
+﻿.cir {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    top: -100px;
+    transition:0s background-color;
+    -webkit-animation: 10s linear 0s infinite alternate move_eye;
+}
+@-webkit-keyframes move_eye {
+    from {
+        margin-left: 1%;
+    }
+
+    to {
+        margin-left: 90%;
+    }
+}
+.cir:hover {
+    background-color: red;
+    transition-delay:1s;
+    -webkit-animation: 10s linear 0s infinite alternate move_eye;
+}
