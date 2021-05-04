@@ -1,0 +1,33 @@
+.fir {
+    width: 12.9%;
+    padding-bottom: 10px;
+    float: left;
+    margin: 5px;
+}
+.firfir{
+    color: white;
+    background-color: Highlight;
+    height: 30px;
+    text-align: center;
+    font-family: Lato Bold (700);
+    font-size: 1.5em;
+}
+img{
+    width: 100%;
+}
+.firsec {
+    font-family: Lato Regular (400);
+    font-size: 2em;
+    text-align: center;
+    margin-top: -30px;
+}
+.deg2{
+    margin-top:-78px;
+    font-size: 0.7em;
+    margin-left: 55px;
+}
+.fir:hover {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.box {
+    border: 1px solid black;
+    width: 400px;
+    height: 80px;
+    position: relative;
+    line-height: 70px;
+    margin-left: 80px;
+    border-top-style: none;
+    border-bottom-style: none;
+    text-align: center;
+}
+
+    .box::before {
+        position: absolute;
+        content: "";
+        display: block;
+        top: 15px;
+        border: solid 1px black;
+        left: -25px;
+        height: 40px;
+        width: 450px;
+        border-left-style: none;
+        border-right-style: none;
+    }
+
+    .box::after {
+        position: absolute;
+        content: "";
+        display: block;
+        border: solid 1px black;
+        height: 40px;
+        z-index: -1;
+        width: 400px;
+        top: 15px;
+        left: -1px;
+        background-color: grey;
+    }

@@ -1,0 +1,31 @@
+.sub {
+    color: green;
+    height: 2em;
+    padding: 0 10px 0 10px;
+    margin-left: -4px;
+    background-color: beige;
+    border-color: lightgray;
+    border-width: 1px;
+
+}
+
+.field {
+    width: calc(100% - 60px);
+    color: green;
+    height: 2em;
+    padding: 0 10px 0 10px;
+    margin-right: 0px;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+}
+.sub:hover {
+    color: red;
+    border-color: lightgray;
+    border-width: 1px;
+}
+.field:focus{
+    color: red;
+    border-collapse:collapse;
+    border: 2px solid royalblue;
+}
+

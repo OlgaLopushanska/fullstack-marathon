@@ -1,0 +1,9 @@
+h1 {
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-family: Arial;
+    line-height: 40px;
+    padding-top: 30px;
+    font-size: 4em;
+}

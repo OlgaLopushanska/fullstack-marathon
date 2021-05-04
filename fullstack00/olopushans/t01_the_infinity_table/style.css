@@ -1,0 +1,34 @@
+thead{
+    background-color: black;
+    color: white;
+}
+.soul {
+    background-color: #d6923d;
+}
+.time {
+    background-color: #008001;
+}
+.space {
+    background-color: #005792;
+}
+.mind {
+    background-color: #ffff05;
+}
+.reality {
+    background-color: #c12a2e;
+}
+.power {
+    background-color: #8175b7;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+td {
+    border-style: solid;
+    border-color: #e2e2e2;
+}
+img {
+    border-radius: 20px;
+}
+

@@ -1,0 +1,70 @@
+#rectangle {
+    width: 270px;
+    height: 140px;
+    background: linear-gradient(to bottom, #4568DC 0%, #B06AB3 100%);
+    font: bold 12px verdana;
+    text-align: left;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    float: left;
+    margin: 15px;
+}
+.klass {
+    font-size: 9px;
+    opacity: 0.5;
+    padding-top: -20%;
+}
+p {
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fir{
+    padding-top: 10px;
+}
+img{
+    padding-left: 10px;
+    margin-top: -21%;
+}
+#rectangle2 {
+    width: 270px;
+    height: 140px;
+    background: linear-gradient(to bottom, #e52d27 0%, #b31217 100%);
+    font: bold 12px verdana;
+    text-align: left;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    float: left;
+    margin: 15px;
+}
+#rectangle3 {
+    width: 270px;
+    height: 140px;
+    background: linear-gradient(to right, #000 0%, #61045F 100%);
+    font: bold 12px verdana;
+    text-align: left;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+    float: left;
+    margin: 15px;
+}
+#rectangle4 {
+    width: 270px;
+    height: 140px;
+    background: linear-gradient(to bottom, #e52d27 0%, #000 100%);
+    font: bold 12px verdana;
+    text-align: left;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    margin: 15px;
+}
+.spider {
+    padding-left: 10px;
+    margin-top: -13%;
+}
